@@ -1,5 +1,8 @@
 name: C/C++ CI
-on: [push, pull_request]
+on:
+    push:
+     branches: 
+      - master
 jobs:
   build-ubuntu-default:
   # checking pure lib source distribution with plain configure & make
